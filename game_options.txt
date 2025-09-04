@@ -610,18 +610,12 @@ SPY_EASY_REWARD_TC_THRESHOLD 5
 ## Also functions as the upper end for medium bounties.
 SPY_HARD_REWARD_TC_THRESHOLD 15
 
-## EFFIGY ADDITIONAL GAME OPTIONS ##
+##
+## EFFIGY GAME OPTIONS
+##
 
-# PREGAME_LOBBY_TRACK
-PREGAME_LOBBY_DURATION 920
-
-## Which discord role to ping about game information
-GAME_NOTIFY_ROLE_ID 1159397815865315399
-
-## Which channel has discord role assignments
-CHANNEL_ROLE_ASSIGNMENT 1113092408540934164
-
-FLUFF_STATUS_FILE config/effigy_splash_fluff.txt
+PREGAME_LOBBY_TRACK https://cdn.effigy.se/live/effigy_lobby.ogg
+PREGAME_LOBBY_DURATION 1350
 
 ## Jungle Ruin Budget
 JUNGLE_BUDGET 2
@@ -638,7 +632,7 @@ TRENCH_BUDGET 6
 ## Show the manifest preview estimation in the pre-game lobby
 SHOW_MANIFEST_PREVIEW
 
-## EFFIGY GAMEMODE CONFIGS
+## GAMEMODE SETTINGS
 
 ## Default Storyteller. Pick a default storyteller program or comment out to enable voting.
 DEFAULT_STORYTELLER /datum/storyteller/default

@@ -649,3 +649,15 @@ TGUI_MAX_CHUNK_COUNT 32
 ## While this is uncommented, server initialization will include some asset generation usually useful for development.
 ## It increases initialization time significantly so you'll want to disable this in live environments.
 #GENERATE_ASSETS_IN_INIT
+
+##
+## EFFIGY SERVER CONFIG
+##
+
+## Which discord role to ping about game information
+GAME_NOTIFY_ROLE_ID 1159397815865315399
+
+## Which channel has discord role assignments
+CHANNEL_ROLE_ASSIGNMENT 1113092408540934164
+
+FLUFF_STATUS_FILE config/effigy_splash_fluff.txt
