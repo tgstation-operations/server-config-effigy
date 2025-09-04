@@ -30,9 +30,6 @@ SERVERSQLNAME effigy
 ## Discord Link: This is the link to Effigy's discord server
 DISCORDLINK https://discord.gg/KFKTYT25tE
 
-## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
-SERVERSQLNAME effigy
-
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
 # STATIONNAME Space Station 13
 
