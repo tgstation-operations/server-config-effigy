@@ -11,7 +11,6 @@ $include comms_servers.txt
 
 # Includes for files symlinked from agenix secret files
 $include comms.txt
-$include dbconfig.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
@@ -658,3 +657,18 @@ GAME_NOTIFY_ROLE_ID 1159397815865315399
 CHANNEL_ROLE_ASSIGNMENT 1113092408540934164
 
 FLUFF_STATUS_FILE config/effigy_splash_fluff.txt
+
+## DATABASE
+
+## Should SQL be enabled? Uncomment to enable
+SQL_ENABLED
+
+## Server the MySQL database can be found at.
+## Examples: localhost, 200.135.5.43, www.mysqldb.com, etc.
+ADDRESS localhost
+
+## MySQL server port (default is 3306).
+PORT 3306
+
+## Database for all SQL functions, not just feedback.
+FEEDBACK_DATABASE effigy
