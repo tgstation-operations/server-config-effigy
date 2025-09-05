@@ -3,7 +3,7 @@ word_filter.toml
 # Secret key within for cross-server communication
 comms.txt
 # Authentication details for the database within
-
+dbconfig.txt
 # Secrets used to connect to the TTS server
 tts_secrets.txt
 
