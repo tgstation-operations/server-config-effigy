@@ -40,7 +40,7 @@ Exclude = AUTOADMIN
 Edit =
 
 Name = Admin Candidate
-Include = @
+Include = ADMIN
 Exclude =
 Edit =
 
