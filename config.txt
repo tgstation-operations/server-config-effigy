@@ -11,6 +11,7 @@ $include comms_servers.txt
 
 # Includes for files symlinked from agenix secret files
 $include comms.txt
+$include dbconfig.txt
 
 # You can use the @ character at the beginning of a config option to lock it from being edited in-game
 # Example usage:
