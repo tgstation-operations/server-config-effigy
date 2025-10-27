@@ -659,6 +659,15 @@ CHANNEL_ROLE_ASSIGNMENT 1113092408540934164
 
 FLUFF_STATUS_FILE config/effigy_splash_fluff.txt
 
+## Server short name on Hub entry
+TAGLINE_NAME Space Station Effigy
+
+## Server tagline on Hub entry
+TAGLINE_DESC where anthro roleplay means creativity, not a giant rulebook
+
+## Server URL on Hub entry
+TAGLINE_URL https://tgstation13.org
+
 ## DATABASE
 
 ## Should SQL be enabled? Uncomment to enable
