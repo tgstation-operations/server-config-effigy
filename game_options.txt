@@ -601,8 +601,8 @@ SPY_HARD_REWARD_TC_THRESHOLD 15
 ## EFFIGY GAME OPTIONS
 ##
 
-PREGAME_LOBBY_TRACK https://cdn.effigy.se/live/effigy_lobby.ogg
-PREGAME_LOBBY_DURATION 1350
+PREGAME_LOBBY_TRACK https://effigy-swe11.b-cdn.net/effigy-lobby.ogg
+PREGAME_LOBBY_DURATION 900
 
 ## Jungle Ruin Budget
 JUNGLE_BUDGET 2
