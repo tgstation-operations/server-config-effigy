@@ -116,7 +116,7 @@ ALLOW_ADMIN_ASAYCOLOR
 ID_CONSOLE_JOBSLOT_DELAY 15
 
 ## allow players to initiate a restart vote
-#ALLOW_VOTE_RESTART
+ALLOW_VOTE_RESTART
 
 ## allow players to initiate a map-change vote
 #ALLOW_VOTE_MAP
@@ -131,7 +131,7 @@ ID_CONSOLE_JOBSLOT_DELAY 15
 VOTE_DELAY 6000
 
 ## time period (deciseconds) which voting session will last (default 1 minute)
-VOTE_PERIOD 900
+VOTE_PERIOD 1800
 
 ## prevents dead players from voting or starting votes
 # NO_DEAD_VOTE
