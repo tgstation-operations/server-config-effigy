@@ -555,7 +555,7 @@ URGENT_AHELP_USER_PROMPT Do not press the button below if your ahelp is a joke, 
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
 ## Based on config directory, so "motd.txt" points to "config/motd.txt"
-#MOTD motd.txt
+MOTD motd.txt
 #MOTD motd_extra.txt
 
 ## Assets can opt-in to caching their results into `tmp`.
