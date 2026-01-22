@@ -1,0 +1,21 @@
+<div class='chat_alert_purple'><span class='subheader_announcement_text'>Welcome to Effigy! We are a roleplay focused, anthro-friendly server.<br/><br/></span>
+<span class='major_announcement_text'>
+<span class='sciradio'>This is intended to be a higher-roleplay environment than the other /tg/Station servers, and more importantly there are different rules to abide by here.</span><br/><br/>
+To avoid getting banned, make sure you read them! <span class='cyan'><a href="https://wiki.tgstation13.org/Effigy:Rules">Wiki: Rules</a></span><br/>
+</span><br/>
+<span class='major_announcement_text'>
+Respawns are allowed only in the case to play a new character. (No respawning after character death in the same round.)<br/><br/>
+Exception: You may immediately cryo and re-join if you made a mistake in job selection/character creation and <b>have not yet interacted with the round.</b><br/><br/>
+<span class='sciradio'>Cryogenic Storage is where you can take your character if you would like to leave the round early. They look like purple sleeper pods and are generally located near the service department.</span>
+</span><br/>
+<span class='major_announcement_text'>
+As a reminder, out of character (OOC) communication is allowed while the shift is ongoing, however do <b>NOT</b> talk about the specifics of an ongoing round until it has completed (End of Round screen has appeared.)<br/><br/>
+Asking general questions about how to do X are fine, so is chat unrelated to the round. Just please don't go overboard spammy with it.
+</span><br/>
+<span class='major_announcement_text'>
+Lots of us like a good traitor round, but remember to avoid recalling shuttles as an antagonist if the station is in clear disrepair, most players want to leave, etc. The rounds of other players are just as important as yours. Be a good sport!
+</span><br/>
+<span class='major_announcement_text'>
+For a host of other useful information, take a look at the <span class='cyan'><a href="https://wiki.tgstation13.org/">Wiki.</a></span> Have fun!
+</span>
+</div>
