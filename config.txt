@@ -22,7 +22,7 @@ $include dbconfig.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME Effigy [US-Central] [HRP]
+SERVERNAME Effigy [US-Central]
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 SERVERSQLNAME effigy
@@ -46,7 +46,7 @@ PUBLIC_ADDRESS effigy.tgstation13.org:7337
 LOBBY_COUNTDOWN 400
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
-ROUND_END_COUNTDOWN 60
+ROUND_END_COUNTDOWN 90
 
 ## Comment this out if you want to use the SQL based admin system, the legacy system uses admins.txt.
 ## You need to set up your database to use the SQL based system.
@@ -113,7 +113,7 @@ ALLOW_ADMIN_OOCCOLOR
 ALLOW_ADMIN_ASAYCOLOR
 
 ## Job slot open/close by identification consoles delay in seconds
-ID_CONSOLE_JOBSLOT_DELAY 15
+ID_CONSOLE_JOBSLOT_DELAY 4
 
 ## allow players to initiate a restart vote
 ALLOW_VOTE_RESTART
@@ -121,17 +121,11 @@ ALLOW_VOTE_RESTART
 ## allow players to initiate a map-change vote
 ALLOW_VOTE_MAP
 
-## allow players to rock the vote, or to vote on the map again if they didn't like the last results
-#ALLOW_ROCK_THE_VOTE
-
-## the number of times you wish to allow players to rock the vote in a given shift
-#MAX_ROCKING_VOTES 1
-
 ## min delay (deciseconds) between voting sessions (default 10 minutes)
 VOTE_DELAY 2400
 
 ## time period (deciseconds) which voting session will last (default 1 minute)
-VOTE_PERIOD 1800
+VOTE_PERIOD 1200
 
 ## prevents dead players from voting or starting votes
 # NO_DEAD_VOTE
@@ -140,7 +134,7 @@ VOTE_PERIOD 1800
 DEFAULT_NO_VOTE
 
 ## respawn. 0 disable, 1 unlimited, 2 character limited
-ALLOW_RESPAWN 2
+ALLOW_RESPAWN 1
 
 ## Respawn delay (deciseconds), which doesn't allow to return to lobby
 RESPAWN_DELAY 0
@@ -203,7 +197,7 @@ GITHUBURL https://www.github.com/effigy-se/effigy
 ## Game Logs address
 ## Incase you don't have a fancy parsing system, but still want players to be able to find where you keep your server's logs.
 ## Example: https://tgstation13.org/parsed-logs/basil/data/logs/
-# GAMELOGURL
+GAMELOGURL https://effigy-logs.tgstation13.org/
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS https://forums.tgstation13.org/viewforum.php?f=7
@@ -281,16 +275,16 @@ NOTE_STALE_DAYS 365.2422
 SOFT_POPCAP_MESSAGE Be warned that the server is currently serving a high number of users, consider using alternative game servers.
 
 ## Uncomment for 'hard' population caps, players will not be allowed to spawn if the living crew exceeds the listed number, though they may still observe or wait for the living crew to decrease in size.
-#HARD_POPCAP 150
+HARD_POPCAP 45
 
 ## Message for hard cap
 HARD_POPCAP_MESSAGE The server is currently serving a high number of users, You cannot currently join. You may wait for the number of living crew to decline, observe, or find alternative servers.
 
 ## Uncomment for 'extreme' population caps, players will not be allowed to join the server if living crew exceeds the listed number.
-#EXTREME_POPCAP 200
+EXTREME_POPCAP 69
 
 ## Message for extreme cap
-EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, find alternative servers.
+EXTREME_POPCAP_MESSAGE The server is currently serving a high number of users, please try again later.
 
 ## Uncomment to allow BYOND subscribers to bypassing server connection population cap. (Living player population cap still applies.)
 BYOND_MEMBER_BYPASS_POPCAP
@@ -475,10 +469,10 @@ HIGH_POP_MC_MODE_AMOUNT 65
 DISABLE_HIGH_POP_MC_MODE_AMOUNT 60
 
 ## Uncomment to prevent the world from sleeping while no players are connected after initializations
-RESUME_AFTER_INITIALIZATIONS
+# RESUME_AFTER_INITIALIZATIONS
 
 ## Uncomment to set the number of /world/Reboot()s before the DreamDaemon restarts itself. 0 means restart every round. Requires tgstation server tools.
-ROUNDS_UNTIL_HARD_RESTART 2
+ROUNDS_UNTIL_HARD_RESTART 0
 
 ##Default view size, in tiles.
 ##	By default, this is 15x15, which gets simplified to 7 by byond
@@ -550,7 +544,7 @@ URGENT_AHELP_USER_PROMPT Do not press the button below if your ahelp is a joke, 
 #ADMINHELP_WEBHOOK_PFP
 
 ## The name of the webhook
-#ADMINHELP_WEBHOOK_NAME
+ADMINHELP_WEBHOOK_NAME Adminhelp Announcement Intern
 
 ## Sets an MOTD of the server.
 ## You can use this multiple times, and the MOTDs will be appended in order.
@@ -619,7 +613,7 @@ TTS_MAX_CONCURRENT_REQUESTS 5
 
 ## Comment to disable sending a toast notification on the host server when initializations complete.
 ## Even if this is enabled, a notification will only be sent if there are no clients connected.
-TOAST_NOTIFICATION_ON_INIT
+# TOAST_NOTIFICATION_ON_INIT
 
 ## Causes configuration errors to spit out runtimes
 CONFIG_ERRORS_RUNTIME
@@ -651,12 +645,6 @@ TGUI_MAX_CHUNK_COUNT 32
 ## EFFIGY SERVER CONFIG
 ##
 
-## Which discord role to ping about game information
-GAME_NOTIFY_ROLE_ID 1159397815865315399
-
-## Which channel has discord role assignments
-CHANNEL_ROLE_ASSIGNMENT 1113092408540934164
-
 FLUFF_STATUS_FILE config/effigy_splash_fluff.txt
 
 ## Server short name on Hub entry
@@ -667,6 +655,15 @@ TAGLINE_DESC where roleplay means creativity, not a giant rulebook
 
 ## Server URL on Hub entry
 TAGLINE_URL https://tgstation13.org
+
+## Channel on the Discord where people can self-assign roles
+DISCORD_ROLES_CHANNEL_ID 1113092408540934164
+
+## Discord role ID to notify about a new game starting
+ROLE_ANNOUNCE_NEW_GAME 1470507980532486225
+
+## Automatically reboot after a TGS deployment if the server is idle
+REBOOT_ON_IDLE_DEPLOYMENT
 
 ## DATABASE
 
