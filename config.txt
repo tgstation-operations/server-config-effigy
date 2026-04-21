@@ -22,7 +22,7 @@ $include dbconfig.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
-SERVERNAME Effigy [US-Central]
+SERVERNAME Effigy
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
 SERVERSQLNAME effigy
@@ -654,7 +654,7 @@ TAGLINE_NAME Effigy — a /tg/station based anthro roleplay server
 TAGLINE_DESC where roleplay means creativity, not a giant rulebook
 
 ## Server URL on Hub entry
-TAGLINE_URL https://tgstation13.org
+TAGLINE_URL https://effigy.se
 
 ## Channel on the Discord where people can self-assign roles
 DISCORD_ROLES_CHANNEL_ID 1113092408540934164
