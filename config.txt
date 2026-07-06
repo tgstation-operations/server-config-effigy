@@ -28,7 +28,7 @@ SERVERNAME Effigy
 SERVERSQLNAME effigy
 
 ## Discord Link: This is the link to Effigy's discord server
-DISCORDLINK https://discord.gg/KFKTYT25tE
+DISCORDLINK https://discord.gg/KDZf9prucS
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
 # STATIONNAME Space Station 13
